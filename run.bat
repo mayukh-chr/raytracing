@@ -1,5 +1,8 @@
 @echo off
 
+REM
+cmake -G "MinGW Makefiles" -S . -B build
+
 REM Run cmake build
 cmake --build build
 
